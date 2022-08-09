@@ -5,18 +5,21 @@
 }
 
 .container{
+    margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
+    width: 450px;
+    margin: auto;
 }
 /*Esta parte es los registros con google y twitter*/
-.btn{
+.buttons{
     display: flex;
-    align-self: flex-start;
+    align-self: center;
     gap: 20px;
-    align-items: center;
+
 }
 
 .google-btn{
@@ -86,11 +89,11 @@ background-color:  rgb(200, 200, 200);
     border:  none;
     border-top:  1px solid #ccc;
 }
-/*separador*/
+
 .separator span{
     color: #8b8b8b;
 }
-.seccion-inputs {
+.section-inputs {
     display: flex;
     gap: 10px;
     width: 100%;
@@ -100,7 +103,7 @@ form {
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    gap: 20px;
+    gap: 30px;
 }
 label {
     display: flex;
@@ -110,23 +113,24 @@ label {
 label span {
     font-weight: 800;
 }
-.seccion-inputs input {
+.section-inputs label input {
     width: 80%;
     background-color: #f3f3f4;
-    padding: 10px 20px;
     border: none;
+    padding: 10px 20px;
     border-radius: 9px;
-    font-size: 14pt;
     outline: none;
+    font-size: 14pt;
 }
 label input {
-    width: 100%;
+    width: 90%;
     background-color: #f3f3f4;
     padding: 10px 20px;
     border: none;
     border-radius: 9px;
     font-size: 14pt;
     outline: none;
+    transition: background-color 0.2s, border 0.2s, box-shadow 0.2s;
 }
 
 label input:hover{
@@ -140,15 +144,30 @@ label input:focus{
     box-shadow: 0 0 4px #eb50ff4f;
 }
 
-.conditions label{
+.checkbox-label {
     display: flex;
     flex-direction: row;
 
 }
 
-.conditions label input[type="cheackbox"]{
+.checkbox-label input[type="checkbox"] {
     width: 20px;
 }
-.conditions span{
+.checkbox-label span{
     font-weight: 400;
+}
+
+.submit-btn{
+    background-color: #EA4C89;
+    color: white;
+    font-size:14pt;
+    font-weight: 500;
+    text-align: center;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.submit-btn:hover{
+    opacity: 0.75;
 }
