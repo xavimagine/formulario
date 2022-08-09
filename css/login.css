@@ -90,11 +90,6 @@ background-color:  rgb(200, 200, 200);
 .separator span{
     color: #8b8b8b;
 }
-/*Formulario*/
-
-
-
-/*input formulario*/
 .seccion-inputs {
     display: flex;
     gap: 10px;
@@ -111,7 +106,6 @@ label {
     display: flex;
     flex-direction: column;
     gap: 5px;
-   
 }
 label span {
     font-weight: 800;
