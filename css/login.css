@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;300;600&display=swap');
+
+*{
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+/*Esta parte es los registros con google y twitter*/
+.btn{
+    display: flex;
+    align-self: flex-start;
+    gap: 20px;
+    align-items: center;
+}
+
+.google-btn{
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    cursor: pointer;
+    
+}
+.google-btn:hover{
+    opacity: 0.75;
+}
+
+.google-btn picture{
+    width: 36px;
+    height: 36px;
+    background-color: white;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.google-btn picture img{
+    width: 75%;
+}
+
+.google-btn span{
+    color: white;
+    font-weight:700; 
+    padding: 15px;
+
+}
+
+.twitter-btn{
+    width: 40px;
+    height: 40px;
+    background-color: #ddd;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.twitter-btn picture{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    
+}
+.twitter-btn:hover{
+background-color:  rgb(200, 200, 200);
+}
